@@ -11,7 +11,7 @@ function Navbar() {
       <div className="left">
         <a href="/" className="logo">
           <img src="/logo.png" alt="" />
-          <span>LamaEstate</span>
+          <span>HomeVista</span>
         </a>
         <a href="/">Home</a>
         <a href="/">About</a>
@@ -21,11 +21,8 @@ function Navbar() {
       <div className="right">
         {user ? (
           <div className="user">
-            <img
-              src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt=""
-            />
-            <span>John Doe</span>
+            
+            <span>Garvita Jhanwar</span>
             <Link to="/profile" className="profile">
               <div className="notification">3</div>
               <span>Profile</span>
