@@ -12,18 +12,12 @@ function ProfilePage() {
             <button>Update Profile</button>
           </div>
           <div className="info">
+            
             <span>
-              Avatar:
-              <img
-                src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                alt=""
-              />
+              Username: <b>Garvita Jhanwar</b>
             </span>
             <span>
-              Username: <b>John Doe</b>
-            </span>
-            <span>
-              E-mail: <b>john@gmail.com</b>
+              E-mail: <b>garvitajhawar10@gmail.com</b>
             </span>
           </div>
           <div className="title">
